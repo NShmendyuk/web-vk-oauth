@@ -10,7 +10,7 @@
     </parent>
     <groupId>ru.webitmo</groupId>
     <artifactId>vkapi</artifactId>
-    <version>1.0.0</version>
+    <version>0.1.0-SNAPSHOT</version>
     <name>vkapi</name>
     <description>web-lab-2</description>
 
