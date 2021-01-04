@@ -15,7 +15,7 @@ public class RedirectListener {
     }
 
     @GetMapping("/authorize")
-    public @ResponseBody String getCode(@RequestParam String code) {
+    public @ResponseBody String getUserName(@RequestParam String code) {
         log.info("code taken by redirect");
         return mainController.getUserInfo(code);
     }
