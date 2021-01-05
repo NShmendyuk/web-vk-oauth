@@ -1,5 +1,5 @@
 # Web vk authorization by oauth2
-[![Actions](https://github.com/Nshmendyuk/web-vk-oauth/workflows/Java%20CI/badge.svg)](https://github.com/Nshmendyuk/web-vk-oauth/actions)
+![](https://github.com/Nshmendyuk/web-vk-oauth/workflows/Java%20CI%20with%20Maven/badge.svg)
 ___
 Авторизация в ВК с использованием OAuth2 через vk api
 ## Getting Started
