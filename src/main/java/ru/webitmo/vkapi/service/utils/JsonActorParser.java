@@ -19,8 +19,11 @@ public class JsonActorParser {
             jsonObject = (JSONObject) new JSONParser().parse(body);
         } catch (ParseException e) {
             log.error("Cannot parse body: {}", body);
+        } catch (NullPointerException e) {
+            log.error("Response from api.vk.com wasn't taken. body is " + body);
         }
-        if (jsonObject == null) return "empty response by requesting user info";
+        if (jsonObject == null) return "Cannot parse body to JSON";
+
         values = (JSONArray) jsonObject.get("response");
         String firstName = "empty";
         String lastName = "empty";
