@@ -3,7 +3,6 @@
 ___
 Авторизация в ВК с использованием OAuth2 через vk api
 ## Getting Started
-___
 Склонируйте и перейдите в каталог с проектом
 
     git clone https://github.com/NShmendyuk/web-vk-oauth
