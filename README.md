@@ -1,4 +1,5 @@
 # Web vk authorization by oauth2
+![](https://github.com/Nshmendyuk/web-vk-oauth/workflows/tests/badge.svg)
 ___
 Авторизация в ВК с использованием OAuth2 через vk api
 ## Getting Started
